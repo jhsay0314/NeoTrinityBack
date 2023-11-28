@@ -2,10 +2,13 @@ import { Board } from "src/boards/board.entity";
 import {BaseEntity,Column,PrimaryGeneratedColumn,Entity,Unique,OneToMany} from "typeorm";
 
 @Entity()
-@Unique(['username'])
+@Unique(['email'])
 export class User extends BaseEntity{
     @PrimaryGeneratedColumn()
     id:number;
+    
+    @Column()
+    email:string;
 
     @Column()
     username:string;
