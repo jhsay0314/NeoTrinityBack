@@ -1,9 +1,9 @@
 import { AuthCredentialsDto } from "./auth-credential-dto";
 import { PartialType } from "@nestjs/mapped-types/dist";
-import { IsString, MaxLength, MinLength , Matches} from "class-validator"; 
+import { IsString, MaxLength, MinLength , Matches, IsEmail} from "class-validator"; 
 
 export class SignInDto extends PartialType(AuthCredentialsDto){
-    @IsString()
+    @IsEmail()
     email:string;
 
     @IsString()
