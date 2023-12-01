@@ -10,8 +10,6 @@ export class GroupService {
         @InjectRepository(Group)
         private groupRepository : Repository<Group>,
         
-        @InjectRepository(User)
-        private userRepository : Repository<User>
     ){}
 
     async getAllGroup() : Promise<Group[]>{
