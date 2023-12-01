@@ -1,4 +1,6 @@
+
 import { Board } from "src/boards/board.entity";
+import { Group } from "src/group/group.entity";
 import {BaseEntity,Column,PrimaryGeneratedColumn,Entity,Unique,OneToMany} from "typeorm";
 
 @Entity()
@@ -18,4 +20,7 @@ export class User extends BaseEntity{
 
     @OneToMany(type => Board, board => board.user,{eager:true})
     boards : Board[];
+
+    @OneToMany(type => Group , group => group.user, {eager:true})
+    group : Group[];
 }

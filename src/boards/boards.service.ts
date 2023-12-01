@@ -14,21 +14,13 @@ export class BoardsService {
         private boardRepository:Repository<Board>,
     ){}
     async getAllBoards():Promise<Board[]>{
-        return this.boardRepository.find();
+        return this.boardRepository
+        .createQueryBuilder("board")
+        .leftJoinAndSelect("board.user", "user")
+        .select(["board", "user.username"])
+        .getMany();
     }
 
-    // createBoard(createBoardDto:CreateBoardDto){
-    //     const {title,description} = createBoardDto;
-
-    //     const board: Board = {
-    //         id : uuid(),
-    //         title,
-    //         description,
-    //         status : BoardStatus.PUBLIC
-    //     }
-    //     this.boards.push(board);
-    //     return board;
-    // }
         async createBoard(createBoardDto:CreateBoardDto,user:User) :Promise<Board>{
             const {title,description} = createBoardDto;
  

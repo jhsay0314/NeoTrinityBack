@@ -12,5 +12,6 @@ export const typeORMConfig : TypeOrmModuleOptions = {
     password : process.env.RDS_PASSWORD || dbConfig.password,
     database : process.env.RDS_DB_NAME || dbConfig.database,
     entities : [__dirname + '/../**/*.entity.{js,ts}'],
-    synchronize : dbConfig.synchronize
+    synchronize : dbConfig.synchronize,
+    timezone:'Asia/Seoul',
 }
