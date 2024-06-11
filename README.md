@@ -1,73 +1,88 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+## Neo Trinity
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+---
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+### 기술 스택
 
-## Description
+---
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+**Enviroment**
+<br />
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-## Installation
+**Development**
+<br />
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-```bash
-$ npm install
-```
+### 개발 배경
 
-## Running the app
+---
 
-```bash
-# development
-$ npm run start
+- 안전 자유 최하위
+    - 한국은 안전자유 등 사회적 자본이 최하위
+    - 이는 한국사회가 불신이 만연한 사회라는 문제 봉착
+    
+- 사회 불신으로 인한 비용
+    - 불신은 각종 항의 항소 등에 의한 지체로 인해 간접 비용 지출
+    - 국가 성장력에 악영향
 
-# watch mode
-$ npm run start:dev
+### 개발 목표
 
-# production mode
-$ npm run start:prod
-```
+---
 
-## Test
+✨ **블록체인**을 활용하여, 불신으로 인한 자본의 누수를 막고 신뢰가 보장된 환경을 구축
 
-```bash
-# unit tests
-$ npm run test
+✨ **블록체인** 기반으로한 투표, 예약 서비스, 출석 서비스를 구축
 
-# e2e tests
-$ npm run test:e2e
+### 화면 구성
 
-# test coverage
-$ npm run test:cov
-```
+---
 
-## Support
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/HoChanny/MyGreen/assets/91381230/e95594ce-78cc-406b-9f3e-900ab2cde2e5" alt="Untitled (7)">
+      <br>
+      <sub>그룹</sub>
+    </td>
+    <td>
+      <img src="https://github.com/HoChanny/MyGreen/assets/91381230/439f5de2-d7de-436d-b9c2-4633e45b0fe9" alt="Untitled (8)">
+      <br>
+      <sub>메인</sub>
+    </td>
+    <td>
+      <img src="https://github.com/HoChanny/MyGreen/assets/91381230/a885e4f5-8700-42f0-bcd5-445402b37386" alt="Untitled (9)">
+      <br>
+      <sub>예약</sub>
+    </td>
+    <td>
+      <img src="https://github.com/HoChanny/MyGreen/assets/91381230/ab15f4ae-7629-4621-8976-26ac67b727fe" alt="Untitled (10)">
+      <br>
+      <sub>예약</sub>
+    </td>
+  </tr>
+</table>
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+### 기능
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+---
 
-## License
+🎇 그룹 기능
 
-Nest is [MIT licensed](LICENSE).
+- 교내 동아리나 학회 회원들을 한 페이지에 관리를 할 수 있는 기능
+- 필요한 공지나 투표를 진행하거나 볼 수 있음
+
+🎇 투표 기능
+
+- 각 그룹이나 총학생회 투표 등 교내에 필요한 투표 시스템을 블록체인을 이용하여 탈중앙화 투표 기능 구현
+
+🎇 대여 서비스 기능
+
+- 교내 대여 장소 ‘스타트업 라운지’ 를 블록체인을 활용하여 시스템을 구축
+- 이전에는 서비스가 존재하지않아 수기로 대여하는 번거로움이 존재
